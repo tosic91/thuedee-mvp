@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 520" role="img" aria-labelledby="title desc">
+  <title id="title">Bàn board game Thuê Dee</title>
+  <desc id="desc">Minh hoạ bàn chơi với xúc xắc, quân cờ, thẻ bài và bàn chiến thuật.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#061823"/>
+      <stop offset="0.52" stop-color="#0b3440"/>
+      <stop offset="1" stop-color="#071921"/>
+    </linearGradient>
+    <radialGradient id="orangeGlow" cx="74%" cy="42%" r="52%">
+      <stop offset="0" stop-color="#f97316" stop-opacity=".75"/>
+      <stop offset=".42" stop-color="#ea580c" stop-opacity=".25"/>
+      <stop offset="1" stop-color="#ea580c" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="tealGlow" cx="48%" cy="32%" r="50%">
+      <stop offset="0" stop-color="#2dd4bf" stop-opacity=".38"/>
+      <stop offset="1" stop-color="#2dd4bf" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="board" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#f8fafc"/>
+      <stop offset="1" stop-color="#cbd5e1"/>
+    </linearGradient>
+    <linearGradient id="cardA" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#fbbf24"/>
+      <stop offset="1" stop-color="#ea580c"/>
+    </linearGradient>
+    <linearGradient id="cardB" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#22d3ee"/>
+      <stop offset="1" stop-color="#0f766e"/>
+    </linearGradient>
+    <filter id="shadow" x="-40%" y="-40%" width="180%" height="180%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#020617" flood-opacity=".58"/>
+    </filter>
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="22"/>
+    </filter>
+    <pattern id="grid" width="44" height="44" patternUnits="userSpaceOnUse">
+      <path d="M44 0H0v44" fill="none" stroke="#fff" stroke-opacity=".09" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1600" height="520" fill="url(#bg)"/>
+  <rect width="1600" height="520" fill="url(#tealGlow)"/>
+  <rect width="1600" height="520" fill="url(#orangeGlow)"/>
+  <path d="M0 430C330 360 470 470 740 405s500-240 860-128v243H0z" fill="#020617" opacity=".25"/>
+  <g opacity=".24" filter="url(#soft)">
+    <circle cx="1250" cy="170" r="98" fill="#fb923c"/>
+    <circle cx="940" cy="290" r="120" fill="#2dd4bf"/>
+  </g>
+
+  <g transform="translate(965 30) rotate(10)" filter="url(#shadow)">
+    <rect width="460" height="390" rx="32" fill="url(#board)"/>
+    <rect x="20" y="20" width="420" height="350" rx="22" fill="#0f766e"/>
+    <rect x="20" y="20" width="420" height="350" rx="22" fill="url(#grid)"/>
+    <path d="M30 275L170 95l120 110 140-145" fill="none" stroke="#fde68a" stroke-width="15" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
+    <circle cx="170" cy="95" r="25" fill="#f97316" stroke="#fff" stroke-width="8"/>
+    <circle cx="290" cy="205" r="25" fill="#fbbf24" stroke="#fff" stroke-width="8"/>
+    <circle cx="110" cy="250" r="24" fill="#38bdf8" stroke="#fff" stroke-width="8"/>
+    <circle cx="385" cy="105" r="25" fill="#f43f5e" stroke="#fff" stroke-width="8"/>
+  </g>
+
+  <g transform="translate(760 260) rotate(-13)" filter="url(#shadow)">
+    <rect width="175" height="230" rx="17" fill="url(#cardA)"/>
+    <rect x="14" y="14" width="147" height="202" rx="11" fill="none" stroke="#fff" stroke-opacity=".7" stroke-width="3"/>
+    <circle cx="88" cy="88" r="43" fill="#fff" fill-opacity=".2"/>
+    <path d="M60 96l28-52 28 52-28 48z" fill="#fff" fill-opacity=".9"/>
+    <path d="M50 177h76" stroke="#fff" stroke-opacity=".8" stroke-width="8" stroke-linecap="round"/>
+  </g>
+
+  <g transform="translate(890 218) rotate(7)" filter="url(#shadow)">
+    <rect width="155" height="210" rx="16" fill="url(#cardB)"/>
+    <rect x="13" y="13" width="129" height="184" rx="10" fill="none" stroke="#d5fffa" stroke-opacity=".75" stroke-width="3"/>
+    <path d="M40 130L78 55l37 75z" fill="#fff" fill-opacity=".86"/>
+    <circle cx="78" cy="132" r="25" fill="#fbbf24"/>
+    <path d="M42 171h72" stroke="#fff" stroke-opacity=".75" stroke-width="7" stroke-linecap="round"/>
+  </g>
+
+  <g transform="translate(705 132) rotate(-9)" filter="url(#shadow)">
+    <rect width="112" height="112" rx="22" fill="#f8fafc"/>
+    <circle cx="31" cy="31" r="9" fill="#0f172a"/>
+    <circle cx="81" cy="31" r="9" fill="#0f172a"/>
+    <circle cx="56" cy="56" r="9" fill="#0f172a"/>
+    <circle cx="31" cy="81" r="9" fill="#0f172a"/>
+    <circle cx="81" cy="81" r="9" fill="#0f172a"/>
+  </g>
+
+  <g filter="url(#shadow)">
+    <g transform="translate(760 62)">
+      <circle cx="32" cy="32" r="25" fill="#f97316"/>
+      <path d="M21 58h22l15 54H6z" fill="#f97316"/>
+    </g>
+    <g transform="translate(850 80)">
+      <circle cx="28" cy="28" r="22" fill="#fbbf24"/>
+      <path d="M18 50h20l14 48H4z" fill="#fbbf24"/>
+    </g>
+    <g transform="translate(675 220)">
+      <circle cx="26" cy="26" r="20" fill="#2dd4bf"/>
+      <path d="M17 45h18l12 44H5z" fill="#2dd4bf"/>
+    </g>
+  </g>
+
+  <g opacity=".75">
+    <circle cx="1510" cy="88" r="8" fill="#fbbf24"/>
+    <circle cx="1460" cy="452" r="7" fill="#2dd4bf"/>
+    <circle cx="650" cy="80" r="6" fill="#f97316"/>
+    <circle cx="620" cy="410" r="5" fill="#fde68a"/>
+  </g>
+</svg>
