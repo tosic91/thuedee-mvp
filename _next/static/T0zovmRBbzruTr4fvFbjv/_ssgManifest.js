@@ -1,0 +1,1 @@
+self.__SSG_MANIFEST=new Set(["\u002Fitem\u002F[id]","\u002Fprototypes\u002Fcategory-worlds\u002Ftest\u002F[variant]"]);self.__SSG_MANIFEST_CB&&self.__SSG_MANIFEST_CB()
